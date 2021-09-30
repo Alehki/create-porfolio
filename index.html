@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/a40ecaeca8.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a40ecaeca8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experimentando- Porfolio</title>
+</head>
+<body>
+    <header class="header">
+        <div class="toggle" id="toggle">
+            <i class="far fa-moon" id="icon"></i>
+            <p class="toggle__text" id="toggle__text">Dark Mode</p>
+        </div>
+
+        <div class="colors" id="colors">
+            <div data-color="hsl(0, 100%, 50%)" class="color color--red color--active"></div>
+            <div data-color="hsl(120, 100%, 25%)" class="color color--green"></div>
+            <div data-color="hsl(240, 100%, 50%)" class="color color--blue"></div>
+            <div data-color="hsl(300, 76%, 72%)" class="color color--violet"></div>
+        </div>
+    </header>
+    <main class="main">
+        <!-- <h1 class="title">Esto es un titulo</h1> -->
+        <section class="section section__left">
+            <article class="user">
+                <div class="img-content">
+                    <img src="assets/images/ale.jpg" alt="Photo-perfil" draggable="false">
+                </div>
+                <div class="user__info">
+                    <h2>Alexander Bazan</h2>
+                    <p class="subtitle">Front end Developer</p>
+                    <div class="tel">
+                        <i class="fas fa-phone-alt icon"></i>
+                        <a href="#" class="name">+54 11-3214-5382</a>
+                    </div>
+                    <div class="email">
+                        <i class="far fa-envelope icon"></i>
+                        <a href="#" class="name">Alexander@gmail.com</a>
+                    </div>
+                </div>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus odio placeat aperiam obcaecati deserunt sit dicta.</p>
+            </article>
+        </section>
+        <section class="section section__rigth">
+            <article class="proyect proyect_1">
+                <a href="https://agenda-de-contacto.netlify.app/index.html" target="_black" class="proyect--link">
+                    <img src="assets/images/agenda-contacto.jpeg" alt="agenda-contacto">
+                </a>
+            </article>
+            <article class="proyect proyect_2">
+                <a href="https://agregar-tareas-con-reloj.netlify.app/" target="_black" class="proyect--link">
+                    <img src="assets/images/agregar-tarea.jpeg" alt="agenda-contacto">
+                </a>
+            </article>
+        </section>
+    </main>
+    
+
+    <script src="java.js"></script>
+</body>
+</html>

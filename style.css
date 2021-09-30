@@ -1,0 +1,160 @@
+:root{
+    --primary-color: red;
+    --border-color: hsl(0, 0%, 0%);
+    --header-color: hsl(0, 0%, 80%);
+    --body-color: hsl(0, 0%, 100%);
+    --text-color: black;
+
+    --border-radius: .4em;
+}
+
+body.dark{
+    /* --primary-color: red; */
+    --border-color: hsl(0, 0%, 90%);
+    --header-color: hsl(0, 0%, 20%);
+    --body-color: hsl(0, 0%, 40%);
+    --text-color: hsl(0, 0%, 85%);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    user-select: none;
+    background-color: var(--body-color);
+    color: var(--text-color);
+}
+
+.header{
+    background-color: var(--header-color);
+    height: 10vh;
+    position: relative;
+    /* el proximo es por el colapsado de margenes verticales del toggle en este caso */
+    overflow: hidden;
+}
+
+.colors{
+    /* background-color: blue; */
+    position: absolute;
+    right: 5%;
+    top: 30%;
+}
+
+.color{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    background-color: var(--primary-color);
+}
+
+.color--red{
+    --primary-color: red;
+}
+
+.color--green{
+    --primary-color: green;
+}
+
+.color--blue{
+    --primary-color: blue;
+}
+
+.color--violet{
+    --primary-color: violet;
+}
+
+.color--active{
+    border: 2px solid var(--border-color);
+}
+
+/* ............................ */
+
+.toggle{
+    margin-left: 10px;
+    margin-top: 10px;
+    /* background-color: yellowgreen; */
+    width: 115px;
+}
+
+.toggle__text{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/* -----------MAIN------------------ */
+
+.section{
+    padding: 1.3em .5em;
+}
+
+.user{
+    background-color: var(--header-color);
+    width: 300px;
+    padding: .6em;
+    border-radius: var(--border-radius);
+}
+
+.img-content{
+    width: 280px;
+}
+
+img{
+    border-radius: var(--border-radius);
+    max-width: 100%;
+}
+
+.icon{
+    margin-right: 10px;
+}
+
+.subtitle{
+    font-size: .9em;
+    opacity: .8;
+}
+
+.name{
+    color: var(--primary-color);
+}
+
+.tel, .name{
+    margin-bottom: 10px;
+}
+
+.text{
+    font-size: .9em;
+    line-height: 1.3;
+}
+
+
+/* PARA BORRAR SI ES NECESARIO --------------------------------------------------------*/
+
+.section{
+    /* background-color: bisque; */
+    display: inline-block;
+    vertical-align: top;
+}
+
+.proyect{
+    display: inline-block;
+    margin-right: .5em;
+}
+
+.proyect--link{
+    display: inline-block;
+    width: 200px;
+    transition: transform .3s;
+}
+
+.proyect--link:hover{
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px){
+    .proyect--link:hover{
+        transform: none;
+    }
+}
