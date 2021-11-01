@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <script src="https://kit.fontawesome.com/a40ecaeca8.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/a40ecaeca8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Experimentando- Porfolio</title>
+    <title>Mi Porfolio</title>
 </head>
-<body>
+<body class="dark">
     <header class="header">
         <div class="toggle" id="toggle">
             <i class="far fa-moon" id="icon"></i>
@@ -31,32 +34,121 @@
                     <img src="assets/images/ale.jpg" alt="Photo-perfil" draggable="false">
                 </div>
                 <div class="user__info">
-                    <h2>Alexander Bazan</h2>
+                    <h2>Bazán Alexander</h2>
                     <p class="subtitle">Front end Developer</p>
                     <div class="tel">
                         <i class="fas fa-phone-alt icon"></i>
-                        <a href="#" class="name">+54 11-3214-5382</a>
+                        <a href="#" class="name">+54 11 2273-6792</a>
                     </div>
                     <div class="email">
                         <i class="far fa-envelope icon"></i>
-                        <a href="#" class="name">Alexander@gmail.com</a>
+                        <a href="#" class="name">BazanAlexander026@gmail.com</a>
                     </div>
                 </div>
-                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus odio placeat aperiam obcaecati deserunt sit dicta.</p>
+                <p class="text">Vengo estudiando de manera autodidacta unos 6 meses. Mi objetivo: Convertirme en un desarrollador Front End profesional.</p>
+            </article>
+            <!-- <article class="hobbie">
+                <h2 class="hobbie__title">Mi pasión por las Matemáticas</h2>
+                <div class="hobbie__content">
+                    <img src="assets/images/matemáticas (1).jpg" alt="matemáticas-image" class="hobbie__image">
+                    <p class="hobbie__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. In repellendus facere eius autem ratione ut.</p>
+                </div>
+            </article> -->
+        </section>
+        <section class="section section__right">
+            <article class="box box-big">
+                <h2 class="box__title">Front End</h2>
+                <p class="box__subtitle">Años de experiencia</p>
+                <div class="skills">
+                    <p class="skills__time"><span class="skills__init">0</span><span class="skills__finish">1</span></p>
+                    <div class="skills__item">
+                        <h2 class="skills__tech">HTML</h2>
+                        <div class="skills__bar skills__bar--30"></div>
+                    </div>
+                    <div class="skills__item">
+                        <h2 class="skills__tech">CSS</h2>
+                        <div class="skills__bar skills__bar--60"></div>
+                    </div>
+                    <div class="skills__item">
+                        <h2 class="skills__tech">JS</h2>
+                        <div class="skills__bar skills__bar--40"></div>
+                    </div>
+                    <div class="skills__item">
+                        <h2 class="skills__tech">REACT</h2>
+                        <div class="skills__bar skills__bar--5"></div>
+                    </div>
+                </div>
+            </article>
+            <article class="box box-medium">
+                <h2 class="box__title">Design</h2>
+                <div class="skills__item">
+                    <h2 class="skills__tech">Libre</h2>
+                    <div class="skills__bar skills__bar--10"></div>
+                </div>
+                <div class="skills__item">
+                    <h2 class="skills__tech">Libre</h2>
+                    <div class="skills__bar skills__bar--80"></div>
+                </div>
+                <div class="skills__item">
+                    <h2 class="skills__tech">Libre</h2>
+                    <div class="skills__bar skills__bar--50"></div>
+                </div>
+            </article>
+            <article class="box box-little">
+                <h2 class="box__title">Multimedia</h2>
+                <div class="skills__item">
+                    <h2 class="skills__tech">Excel</h2>
+                    <div class="skills__bar skills__bar--40"></div>
+                </div>
+                <div class="skills__item">
+                    <h2 class="skills__tech">World</h2>
+                    <div class="skills__bar skills__bar--60"></div>
+                </div>
+            </article>
+
+            <article class="proyects">
+                <section class="proyect proyect--uno">
+                    <div class="content__image">
+                        <img src="assets/images/agenda.jpg" alt="agenda" class="proyect__image">
+                    </div>
+                    <div class="proyect__info">
+                        <h3 class="proyect__title no-margin">Agenda de contactos</h3>
+                        <p class="proyect__description">Guarda tus contactos de la mejor manera con mi página web para gestionar tus vinculos personales. Para acceder al proyecto click en "Demo", para ver el codigo de su desarrollo click en "Code".</p>
+                        <p class="adver no-margin">Aún estamos trabajando en su desarrollo.</p>
+                    </div>
+                    <div class="buttons">
+                        <a href="https://agenda-de-contacto.netlify.app/" class="button button--normal" target="__black">Demo</a>
+                        <a href="#" class="button button--ghost">Code</a>
+                    </div>
+                </section>
+                <section class="proyect proyect--dos">
+                    <div class="content__image">
+                        <img src="assets/images/todo-lists-g41460bb8e_1920.jpg" alt="agenda" class="proyect__image">
+                    </div>
+                    <div class="proyect__info">
+                        <h3 class="proyect__title no-margin">Todo List</h3>
+                        <p class="proyect__description">El "Todo List" se le denomina al programa desarrollado para hacer notaciones de las tareas del usuario.
+                        Para acceder al proyecto click en "Demo" para ver el código de su desarrollo click en "Code".
+                        </p>
+                        <p class="adver no-margin">Aún estamos trabajando en su desarrollo.</p>
+                    </div>
+                    <div class="buttons buttons--move">
+                        <a href="https://agregar-tareas-con-reloj.netlify.app/" class="button button--normal" target="__black">Demo</a>
+                        <a href="#" class="button button--ghost">Code</a>
+                    </div>
+                </section>
             </article>
         </section>
-        <section class="section section__rigth">
-            <article class="proyect proyect_1">
-                <a href="https://agenda-de-contacto.netlify.app/index.html" target="_black" class="proyect--link">
-                    <img src="assets/images/agenda-contacto.jpeg" alt="agenda-contacto">
-                </a>
-            </article>
-            <article class="proyect proyect_2">
-                <a href="https://agregar-tareas-con-reloj.netlify.app/" target="_black" class="proyect--link">
-                    <img src="assets/images/agregar-tarea.jpeg" alt="agenda-contacto">
-                </a>
-            </article>
-        </section>
+
+        <article class="hobbie">
+            <h2 class="hobbie__title">Mi pasión por las Matemáticas</h2>
+            <div class="hobbie__content">
+                <img src="assets/images/matemáticas (1).jpg" alt="matemáticas-image" class="hobbie__image">
+                <p class="hobbie__text">La escencia de la programación al igual que las Matemáticas  es resolver problemas. Por esta razón me encantan tanto el desarrollo web como las mates.</p>
+            </div>
+        </article>
+
+
     </main>
     
 

@@ -1,7 +1,6 @@
 const colors = document.getElementById(`colors`)
 const conjunto = document.querySelectorAll(`.color`)
 
-
 const rootStyles = document.documentElement.style;
 
 colors.addEventListener(`click`, (e)=>{
