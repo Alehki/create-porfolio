@@ -16,7 +16,7 @@
     <header class="header">
         <div class="toggle" id="toggle">
             <i class="far fa-moon" id="icon"></i>
-            <p class="toggle__text" id="toggle__text">Dark Mode</p>
+            <p class="toggle__text" id="toggle__text">Modo oscuro</p>
         </div>
 
         <div class="colors" id="colors">
@@ -42,113 +42,179 @@
                     </div>
                     <div class="email">
                         <i class="far fa-envelope icon"></i>
-                        <a href="#" class="name">BazanAlexander026@gmail.com</a>
+                        <a id="correo" href="#" target="_blank" class="name">BazanAlexander026@gmail.com</a>
                     </div>
                 </div>
-                <p class="text">Vengo estudiando de manera autodidacta unos 6 meses. Mi objetivo: Convertirme en un desarrollador Front End profesional.</p>
+                <p class="text">Soy Estudiante de la <strong>tecnicatura universitaria en programacion</strong> y quiero conseguir mi primer trabajo.</p>
             </article>
-            <!-- <article class="hobbie">
-                <h2 class="hobbie__title">Mi pasión por las Matemáticas</h2>
-                <div class="hobbie__content">
-                    <img src="assets/images/matemáticas (1).jpg" alt="matemáticas-image" class="hobbie__image">
-                    <p class="hobbie__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. In repellendus facere eius autem ratione ut.</p>
-                </div>
-            </article> -->
-        </section>
-        <section class="section section__right">
-            <article class="box box-big">
-                <h2 class="box__title">Front End</h2>
-                <p class="box__subtitle">Años de experiencia</p>
-                <div class="skills">
-                    <p class="skills__time"><span class="skills__init">0</span><span class="skills__finish">1</span></p>
+            <article class="boxes">
+                <article class="box box-big">
+                    <h2 class="box__title">Front End</h2>
+                    <p class="box__subtitle">Años de experiencia</p>
+                    <div class="skills">
+                        <p class="skills__time"><span class="skills__init">0</span><span class="skills__finish">1</span></p>
+                        <div class="skills__item">
+                            <h2 class="skills__tech">HTML</h2>
+                            <div class="skills__bar skills__bar--30"></div>
+                        </div>
+                        <div class="skills__item">
+                            <h2 class="skills__tech">CSS</h2>
+                            <div class="skills__bar skills__bar--60"></div>
+                        </div>
+                        <div class="skills__item">
+                            <h2 class="skills__tech">JS</h2>
+                            <div class="skills__bar skills__bar--40"></div>
+                        </div>
+                        <div class="skills__item">
+                            <h2 class="skills__tech">REACT</h2>
+                            <div class="skills__bar skills__bar--5"></div>
+                        </div>
+                    </div>
+                </article>
+                <!-- <article class="box box-medium">
+                    <h2 class="box__title">Design</h2>
                     <div class="skills__item">
-                        <h2 class="skills__tech">HTML</h2>
-                        <div class="skills__bar skills__bar--30"></div>
+                        <h2 class="skills__tech">Libre</h2>
+                        <div class="skills__bar skills__bar--10"></div>
                     </div>
                     <div class="skills__item">
-                        <h2 class="skills__tech">CSS</h2>
-                        <div class="skills__bar skills__bar--60"></div>
+                        <h2 class="skills__tech">Libre</h2>
+                        <div class="skills__bar skills__bar--80"></div>
                     </div>
                     <div class="skills__item">
-                        <h2 class="skills__tech">JS</h2>
+                        <h2 class="skills__tech">Libre</h2>
+                        <div class="skills__bar skills__bar--50"></div>
+                    </div>
+                </article> -->
+                <article class="box box-little">
+                    <h2 class="box__title">Multimedia</h2>
+                    <div class="skills__item">
+                        <h2 class="skills__tech">Excel</h2>
                         <div class="skills__bar skills__bar--40"></div>
                     </div>
                     <div class="skills__item">
-                        <h2 class="skills__tech">REACT</h2>
-                        <div class="skills__bar skills__bar--5"></div>
+                        <h2 class="skills__tech">World</h2>
+                        <div class="skills__bar skills__bar--60"></div>
                     </div>
-                </div>
-            </article>
-            <article class="box box-medium">
-                <h2 class="box__title">Design</h2>
-                <div class="skills__item">
-                    <h2 class="skills__tech">Libre</h2>
-                    <div class="skills__bar skills__bar--10"></div>
-                </div>
-                <div class="skills__item">
-                    <h2 class="skills__tech">Libre</h2>
-                    <div class="skills__bar skills__bar--80"></div>
-                </div>
-                <div class="skills__item">
-                    <h2 class="skills__tech">Libre</h2>
-                    <div class="skills__bar skills__bar--50"></div>
-                </div>
-            </article>
-            <article class="box box-little">
-                <h2 class="box__title">Multimedia</h2>
-                <div class="skills__item">
-                    <h2 class="skills__tech">Excel</h2>
-                    <div class="skills__bar skills__bar--40"></div>
-                </div>
-                <div class="skills__item">
-                    <h2 class="skills__tech">World</h2>
-                    <div class="skills__bar skills__bar--60"></div>
-                </div>
-            </article>
-
-            <article class="proyects">
-                <section class="proyect proyect--uno">
-                    <div class="content__image">
-                        <img src="assets/images/agenda.jpg" alt="agenda" class="proyect__image">
-                    </div>
-                    <div class="proyect__info">
-                        <h3 class="proyect__title no-margin">Agenda de contactos</h3>
-                        <p class="proyect__description">Guarda tus contactos de la mejor manera con mi página web para gestionar tus vinculos personales. Para acceder al proyecto click en "Demo", para ver el codigo de su desarrollo click en "Code".</p>
-                        <p class="adver no-margin">Aún estamos trabajando en su desarrollo.</p>
-                    </div>
-                    <div class="buttons">
-                        <a href="https://agenda-de-contacto.netlify.app/" class="button button--normal" target="__black">Demo</a>
-                        <a href="https://github.com/Alehki/agenda_de_contactos_-D" target="__black" class="button button--ghost">Code</a>
-                    </div>
-                </section>
-                <section class="proyect proyect--dos">
-                    <div class="content__image">
-                        <img src="assets/images/todo-lists-g41460bb8e_1920.jpg" alt="agenda" class="proyect__image">
-                    </div>
-                    <div class="proyect__info">
-                        <h3 class="proyect__title no-margin">Todo List</h3>
-                        <p class="proyect__description">El "Todo List" se le denomina al programa desarrollado para hacer notaciones de las tareas del usuario.
-                        Para acceder al proyecto click en "Demo" para ver el código de su desarrollo click en "Code".
-                        </p>
-                        <p class="adver no-margin">Aún estamos trabajando en su desarrollo.</p>
-                    </div>
-                    <div class="buttons buttons--move">
-                        <a href="https://alehki.github.io/todo_listi_bien_hecho/" class="button button--normal" target="__black">Demo</a>
-                        <a href="github.com/Alehki/todo_listi_bien_hecho" target="__black" class="button button--ghost">Code</a>
-                    </div>
-                </section>
+                </article>
+    
             </article>
         </section>
 
-        <article class="hobbie">
-            <h2 class="hobbie__title">Mi pasión por las Matemáticas</h2>
-            <div class="hobbie__content">
-                <img src="assets/images/matemáticas (1).jpg" alt="matemáticas-image" class="hobbie__image">
-                <p class="hobbie__text">La escencia de la programación al igual que las Matemáticas  es resolver problemas. Por esta razón me encantan tanto el desarrollo web como las mates.</p>
-            </div>
-        </article>
+        <section class="section section__right">     
+            <article class="proyects">
+                <h2 class="proyects__title">Mis proyectos</h2>
+                <section class="proyect proyect--uno">
+                    <div class="content__image">
+                        <img src="assets/images/todo-lists-g41460bb8e_1920.jpg" alt="agenda" class="proyect__image">
+                    </div>
+                    <h3 class="proyect__title">Todo List</h3>
+                    <div id="1" class="desplegar">
+                        <p>Desplegar descripción</p>
+                        <img class="short" src="assets/images/sort-down-solid.svg" alt="flecha">
+                    </div>
+                    <div id="proyect__info--1" class="proyect__info">
+                        <p class="proyect__description">El "Todo List" se le denomina al programa desarrollado para hacer notaciones de las tareas del usuario. El "Todo List" se le denomina al programa desarrollado para hacer notaciones.
+                        
+                        asdfsdf Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod pariatur exercitationem alias, officia, mollitia quos laudantium, qui numquam beatae minima veritatis hic blanditiis eius incidunt! Reiciendis magnam fugit cum nobis.
+                        </p>
+                    </div>
+                    <div class="buttons">
+                        <div class="button button--normal">
+                            <a class="button__link demo" href="https://alehki.github.io/todo_listi_bien_hecho/" target="__black">
+                                Abrír
+                                <img class="button__icon" src="assets/images/arrow-right-solid.svg" alt="icon">
+                            </a>
+                        </div>
+                        <div class="button button--ghost">
+                            <a class="button__link" href="https://github.com/Alehki/todo_listi_bien_hecho" target="__black" >Código</a>
+                        </div>
+                    </div>
+                </section>
 
+                <section class="proyect proyect--dos">
+                    <div class="content__image">
+                        <img src="assets/images/amigos.jpg" alt="agenda" class="proyect__image">
+                    </div>
+                    <h3 class="proyect__title">Busqueda de amigos</h3>
+                    <div id="2" class="desplegar">
+                        <p>Desplegar descripción</p>
+                        <img class="short" src="assets/images/sort-down-solid.svg" alt="flecha">
+                    </div>
+                    
+                    <div id="proyect__info--2" class="proyect__info">
+                        <p class="proyect__description">
+                            Filtra y encontra a tus amigos en el buscador de amigos. Encontra las caracterusticas de cada uno!
+                        </p>
+                    </div>
+                    <div class="buttons buttons--move">
+                        <div class="button button--normal">
+                            
+                            <a class="button__link demo" href="https://alehki.github.io/busqueda-de-amigos/" target="__black">
+                                Abrír
+                                <img class="button__icon" src="assets/images/arrow-right-solid.svg" alt="icon">
+                            </a>
+                        </div>
+                        <div class="button button--ghost">
+                            <a class="button__link" href="https://github.com/Alehki/busqueda-de-amigos" target="__black">Código</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="proyect proyect--tres">
+                    <div class="content__image">
+                        <img src="assets/images/agenda.jpg" alt="agenda" class="proyect__image">
+                    </div>
+                    <h3 class="proyect__title">Agenda de contactos</h3>
+                    <div id="3" class="desplegar">
+                        <p>Desplegar descripción</p>
+                        <img class="short" src="assets/images/sort-down-solid.svg" alt="flecha">
+                    </div>
+                    <div id="proyect__info--3" class="proyect__info">
+                        <p class="proyect__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus dignissimos perspiciatis doloribus tempore, illum exercitationem? Laudantium saepe quam eligendi consectetur? Aut dolorem impedit asperiores fugit reiciendis earum, magnam ipsum libero?
+                        </p>
+                    </div>
+                    <div class="buttons">
+                        <div class="button button--normal">
+                            <a class="button__link demo" href="https://agenda-de-contacto.netlify.app/" target="__black">
+                                Abrir
+                                <img class="button__icon" src="assets/images/arrow-right-solid.svg" alt="icon">
+                            </a>
+                        </div>
+                        <div class="button button--ghost">
+                            <a class="button__link" href="https://github.com/Alehki/agenda_de_contactos_-D" target="__black">Código</a>
+                        </div>
+                        
+                    </div>
+                </section>
 
+                <section class="proyect proyect--cuatro">
+                    <div class="content__image">
+                        <img src="assets/images/math-work-g64e2573b1_1280.jpg" alt="agenda" class="proyect__image">
+                    </div>
+                    <h3 class="proyect__title">Calculadora</h3>
+                    <div id="4" class="desplegar">
+                        <p>Desplegar descripción</p>
+                        <img class="short" src="assets/images/sort-down-solid.svg" alt="flecha">
+                    </div>
+                    <div id="proyect__info--4" class="proyect__info">
+                        <p class="proyect__description">La calculadora programada en react que te ayudará a hacer tus cuentas. </p>
+                    </div>
+                    <div class="buttons">
+                        <div class="button button--normal">
+                            <a class="button__link demo" href="https://alehki.github.io/calculadora-react/" target="__black">
+                                Abrír
+                                <img class="button__icon" src="assets/images/arrow-right-solid.svg" alt="icon">
+                            </a>
+                        </div>
+                        <div class="button button--ghost">
+                            <a class="button__link" href="https://github.com/Alehki/calculadora-react" target="__black">Código</a>
+                        </div>
+                        
+                    </div>
+                </section>
+
+            </article>
+        </section>
     </main>
     
 
