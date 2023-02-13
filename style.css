@@ -111,11 +111,13 @@ main{
     }
 }
 
+
 .section{
     padding: var(--space-top);
-}
+}    
 
 .section__left{
+    padding-bottom: 0;
     max-width: 350px;
     display: flex;
     align-items: center;
